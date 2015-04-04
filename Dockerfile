@@ -1,4 +1,6 @@
-FROM bizybot/gpio
+FROM resin/rpi-raspbian
+
+RUN apt-get update && apt-get install -y python
 
 ADD hello.py /
 
