@@ -1,9 +1,9 @@
-FROM resin/rpi-raspbian
+FROM ubuntu
 
-RUN apt-get update && apt-get install -y python
+ADD hello.sh /my_application/hello.sh
 
-ADD hello.py /
+RUN chmod +x /my_application/hello.sh
 
-# Display version of Python and start the project
-RUN echo 'python2.7 -V && python2.7 hello.py' >/start
-RUN chmod +x /start
+WORKDIR /my_application
+
+CMD /bin/bash hello.sh
