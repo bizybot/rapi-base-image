@@ -1,6 +1,6 @@
 #!/bin/bash
 while true; do
-echo "Hello, World - From Jiyu !!!"
-echo "Hello, Jiyu ... "
+echo "Love you Pappa ... From Jiyu !!!"
+echo "Love you too Jiyu ... "
 sleep 1
 done
