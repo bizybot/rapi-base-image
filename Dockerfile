@@ -1,4 +1,4 @@
-FROM cellofellow/rpi-arch
+FROM resin/rpi-raspbian
 
 ADD hello.sh /my_application/hello.sh
 
