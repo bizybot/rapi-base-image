@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM cellofellow/rpi-arch
 
 ADD hello.sh /my_application/hello.sh
 
